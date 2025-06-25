@@ -1,5 +1,11 @@
 # exposy
 
+## 0.0.7
+
+### Patch Changes
+
+- added npmignore
+
 ## 0.0.6
 
 ### Patch Changes
