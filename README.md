@@ -12,6 +12,12 @@ When developing web applications, you often run a local development server (e.g.
 npm install -g exposem
 ```
 
+or
+
+```bash
+npm install exposem --save-dev
+```
+
 ## Usage
 
 Let's say your local development server is running on port `3000`.
@@ -21,6 +27,12 @@ Let's say your local development server is running on port `3000`.
 
     ```bash
     exposem -p 3000
+    ```
+
+    or
+
+    ```bash
+    npx exposem -p 3000
     ```
 
 2.  **Access from other devices:**

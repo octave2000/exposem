@@ -1,5 +1,11 @@
 # exposy
 
+## 0.0.10
+
+### Patch Changes
+
+- corrected docs
+
 ## 0.0.9
 
 ### Patch Changes
