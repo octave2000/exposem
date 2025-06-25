@@ -1,5 +1,11 @@
 # exposy
 
+## 0.0.11
+
+### Patch Changes
+
+- b13d0c4: added License
+
 ## 0.0.10
 
 ### Patch Changes
