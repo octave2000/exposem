@@ -1,5 +1,11 @@
 # exposy
 
+## 0.0.6
+
+### Patch Changes
+
+- 3b89fa2: changes bin
+
 ## 0.0.5
 
 ### Patch Changes
