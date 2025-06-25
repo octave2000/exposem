@@ -18,8 +18,9 @@ Let's say your local development server is running on port `3000`.
 
 1.  **Run exposem:**
     Open a new terminal window and run:
+
     ```bash
-    exposem 3000
+    exposem -p 3000
     ```
 
 2.  **Access from other devices:**

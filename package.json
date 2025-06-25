@@ -1,6 +1,7 @@
 {
   "name": "exposem",
-  "version": "0.0.8",
+  "description": "Exposem lets you share your local server over Wi-Fi with other devices on the same network. Just run a command, and your app is accessible from your phone, tablet, or other laptops. Perfect for quick testing across devices.",
+  "version": "0.0.9",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
