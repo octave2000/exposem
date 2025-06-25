@@ -1,0 +1,35 @@
+{
+  "name": "exposy",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "exposy": "dist/index.js"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsup src/index.ts --format cjs,esm --dts ",
+    "lint": "tsc",
+    "ci": " npm run lint && npm run build",
+    "release": "npm run lint && npm run build && changeset publish"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/qrcode-terminal": "^0.12.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.29.5",
+    "@types/express": "^5.0.3",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "tsup": "^8.5.0"
+  }
+}
