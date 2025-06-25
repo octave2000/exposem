@@ -18,7 +18,7 @@ const name = options.name;
 const ip = getLocalIP();
 const url = `http://${ip}:${port}`;
 
-console.log(chalk.green(`\n🌐 LAN Dev Server:`));
+console.log(chalk.green(`\n LAN Dev Server:`));
 console.log(`→ ${chalk.blue(url)}`);
 console.log(
   `→ ${chalk.gray(`(or try http://${name}.local if mDNS is enabled)`)}\n`
