@@ -1,5 +1,11 @@
 # exposy
 
+## 0.0.12
+
+### Patch Changes
+
+- made it a bin
+
 ## 0.0.11
 
 ### Patch Changes
