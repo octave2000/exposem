@@ -1,5 +1,11 @@
 # exposy
 
+## 0.0.8
+
+### Patch Changes
+
+- corrected dependencies
+
 ## 0.0.7
 
 ### Patch Changes
