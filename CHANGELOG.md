@@ -1,5 +1,11 @@
 # exposy
 
+## 0.0.13
+
+### Patch Changes
+
+- removed name console
+
 ## 0.0.12
 
 ### Patch Changes
